@@ -1,4 +1,14 @@
 /* Ajustes globais */
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 body {
     transition: background-color .3s ease, color .3s ease;
 }
@@ -24,6 +34,32 @@ header {
 
 footer {
     transition: background-color .3s ease, color .3s ease;
+}
+
+.footer-custom {
+    background-color: var(--bs-dark);
+    color: var(--bs-light);
+    margin-top: auto;
+}
+
+.footer-custom h5 {
+    font-weight: bold;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-icon {
+    color: var(--bs-light);
+    transition: 0.3s;
+}
+
+.footer-icon:hover {
+    color: #ff3b3b;
+    transform: scale(1.15);
 }
 
 

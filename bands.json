@@ -1,0 +1,37 @@
+[
+  {
+    "nome": "Metallica",
+    "origem": "Los Angeles, EUA",
+    "formada": "1981",
+    "imagem": "https://www.rollingstone.com/wp-content/uploads/2021/06/metallica-album-guide.jpg?w=1581&h=1054&crop=1",
+    "bio": "Formada em 1981, Metallica é uma das bandas mais influentes do thrash/speed metal, com álbuns icônicos como 'Master of Puppets'."
+  },
+  {
+    "nome": "Slayer",
+    "origem": "Huntington Park, EUA",
+    "formada": "1981",
+    "imagem": "https://www.mundometalbr.com/wp-content/uploads/2021/10/55f836_df242bbf039748b482aacbc7a213ee79_mv2.webp",
+    "bio": "Slayer foi conhecida por sua agressividade sonora e letras sombrias — marco do thrash metal extremo."
+  },
+  {
+    "nome": "Megadeth",
+    "origem": "Los Angeles, EUA",
+    "formada": "1983",
+    "imagem": "https://www.headbangersnews.com.br/wp-content/uploads/2020/09/Megadeth-1990-rust.jpg",
+    "bio": "Fundada por Dave Mustaine, Megadeth é referência técnica no gênero, com álbuns como 'Rust in Peace'."
+  },
+  {
+    "nome": "Exodus",
+    "origem": "San Francisco Bay Area, EUA",
+    "formada": "1979",
+    "imagem": "https://www.moshville.co.uk/wordpress/wp-content/uploads/2024/05/Exodus-header.jpg",
+    "bio": "Pioneiros da Bay Area Thrash, Exodus ajudou a moldar o som cru e veloz que definiria o thrash."
+  },
+  {
+    "nome": "Anthrax",
+    "origem": "New York, EUA",
+    "formada": "1981",
+    "imagem": "https://townsquare.media/site/366/files/2014/02/Anthrax.jpg?w=1200&h=0&zc=1&s=0&a=t&q=89",
+    "bio": "Anthrax trouxe riffs pesados e uma energia diferente à cena, contribuindo para o 'Big Four' do thrash."
+  }
+]
