@@ -1,0 +1,42 @@
+/* Ajustes globais */
+body {
+    transition: background-color .3s ease, color .3s ease;
+}
+
+/* Cartões das postagens */
+.bg-card {
+    background-color: var(--bs-body-bg);
+}
+.text-card {
+    color: var(--bs-body-color);
+}
+
+.card-img-top {
+    height: 230px;
+    object-fit: cover;
+}
+
+
+header {
+    border-bottom: 2px solid rgba(255, 0, 0, 0.4);
+}
+
+
+footer {
+    transition: background-color .3s ease, color .3s ease;
+}
+
+
+[data-bs-theme="dark"] body {
+    color: #e4e4e4;
+}
+
+[data-bs-theme="dark"] .card {
+    background-color: #1a1a1a !important;
+    color: #e4e4e4 !important;
+}
+
+[data-bs-theme="dark"] footer {
+    background-color: #111 !important;
+    color: #ddd !important;
+}
