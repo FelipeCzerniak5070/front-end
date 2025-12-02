@@ -97,3 +97,23 @@ searchBtn.addEventListener("click", e => {
     e.preventDefault();
     filtrarPosts();
 });
+
+
+let fonteAtual = parseFloat(localStorage.getItem("font-size")) || 1;
+
+document.body.style.fontSize = fonteAtual + "rem";
+
+document.getElementById("fontMais").addEventListener("click", () => {
+    fonteAtual += 0.1;
+    aplicarFonte();
+});
+
+document.getElementById("fontMenos").addEventListener("click", () => {
+    fonteAtual -= 0.1;
+    aplicarFonte();
+});
+
+function aplicarFonte() {
+    document.body.style.fontSize = fonteAtual.toFixed(2) + "rem";
+    localStorage.setItem("font-size", fonteAtual);
+}

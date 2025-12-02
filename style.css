@@ -76,3 +76,7 @@ footer {
     background-color: #111 !important;
     color: #ddd !important;
 }
+
+.btn-group button {
+    font-weight: bold;
+}
