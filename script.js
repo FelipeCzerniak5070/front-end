@@ -1,3 +1,39 @@
+//Carregar posts do JSON
+
+async function carregarPosts() {
+    const container = document.getElementById("postsContainer");
+
+    try {
+        const resposta = await fetch("posts.json");
+        const posts = await resposta.json();
+
+        container.innerHTML = "";
+
+        posts.forEach(post => {
+            const card = `
+                <div class="col-md-4">
+                    <div class="card h-100 bg-card text-card">
+                        <img src="${post.imagem}" class="card-img-top" alt="${post.titulo}">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">${post.titulo}</h5>
+                            <p class="text-muted small">${post.data}</p>
+                            <p>${post.conteudo}</p>
+                        </div>
+                    </div>
+                </div>
+            `;
+            container.innerHTML += card;
+        });
+    } catch (erro) {
+        container.innerHTML = `<p class="text-danger">Erro ao carregar posts.</p>`;
+        console.error("Erro ao carregar posts.json:", erro);
+    }
+}
+
+carregarPosts();
+
+//----------
+
 //Tema com local storage
 const themeToggle = document.getElementById("themeToggle");
 const html = document.documentElement;
